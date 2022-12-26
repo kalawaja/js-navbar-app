@@ -26,7 +26,7 @@ Variables
   --clr-primary-9: hsl(206, 44%, 50%);
   --clr-primary-10: hsl(206, 54%, 60%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1: hsl(206, 14%, 20%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -182,7 +182,7 @@ nav {
   height: 47px;
 }
 .links a {
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-1);
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -191,8 +191,8 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: var(--clr-primary-6);
+  color: var(--clr-primary-1);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -242,6 +242,6 @@ nav {
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: var(--clr-primary-6);
   }
 }
