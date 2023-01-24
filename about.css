@@ -149,11 +149,6 @@ nav {
   }
 }
 
-p > a {
-    color: var(--clr-primary-5);
-    font-weight: bolder;
-}
-
 /*
 =============== 
 Global Styles
@@ -238,22 +233,31 @@ a {
   border-radius: 50%;
 }
 #author {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.25rem;
     color: var(--clr-primary-6);
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 #job {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     text-transform: uppercase;
     color: var(--clr-primary-5);
     font-size: 1rem;
 }
-#info {
-    margin-bottom: 0.75rem;
+#location {
+    color: var(--clr-primary-6);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+p > a {
+    color: var(--clr-primary-5);
+}
+a > i {
     color: var(--clr-primary-6);
 }
-
+a > i:hover {
+    color: var(--clr-primary-5);
+}
 h1,
 h2,
 h3,
